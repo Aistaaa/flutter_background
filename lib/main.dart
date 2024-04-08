@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
           title: Text(
             'Welcome to Flutter by Esta', // Judul header
             style: TextStyle(
-              color: Colors.white, // Warna teks header
+              color: Color.fromARGB(255, 202, 214, 218), // Warna teks header
             ),
           ),
           backgroundColor: Color.fromARGB(255, 19, 122, 170), // Warna latar belakang header
@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
               '"Let\'s explore endless possibilities with Flutter!"', // Teks body
               style: TextStyle(
                 color: Color.fromARGB(255, 19, 122, 170), // Warna teks body
-                fontSize: 24.0, // Ukuran font teks body
+                fontSize: 30.0, // Ukuran font teks body
               ),
             ),
           ),
